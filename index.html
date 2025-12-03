@@ -1,82 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infinite Inspire Stuio</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <title>Infinite Inspire Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="index.css" />
+</head>
 <body>
-    <header>
-        <div class="logo_cantainer">
-        <a href="index.html"><img class="infinite_home" src="infinite_inspite_studio_logo.png"alt="Infinite Home"></a>
-         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Portfolio / Work</a></li>
-                <li><a href="index.html">About Me</a></li>
-                <li><a href="index.html">Services</a></li>
-                <li><a href="index.html">Contact</a></li>
-                <li><a href="index.html"></a><button>Login</button></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+     <div class="logo">
+         <img src="infinite_inspite_studio_logo.png" alt="Infinite Inspire Studio Logo" class="logo-img" />
+         <span class="logo-text">Infinite Inspire Studio</span>
+     </div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-outline">Get in touch</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+      </button>
+    </div>
+  </header>
 
-    <main class="hero-section">
-        <div class="hero-content">
-            <h1>Creating Brands and Digital Solutions</h1>
-            <p class="description">
-                “We create thoughtful, modern design solutions that help businesses stand out, connect with their audience, and communicate their message with clarity and confidence.”
-            </p>
-            <p class="mission">
-                “Our mission is to turn your ideas into visual stories that inspire trust, attract attention, and make your brand unforgettable.”
-            </p>
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">
+            Clean, creative visuals and smart digital Designs.
+          </p>
+          <h1>
+            We Create Designs That<br />
+            Inspire and Marketing<br />
+            That Delivers Results
+          </h1>
+          <p class="hero-subtitle">
+            From branding and social media to websites and campaigns, we help
+            your business look professional and grow with confidence.
+          </p>
+          <div class="hero-actions">
+            <a href="#" class="btn">Get started</a>
+            <a href="#" class="btn btn-light">View portfolio</a>
+          </div>
         </div>
-    </main>
-
-
-    <section class="services-section">
-        <div class="services-header">
-            <div class="header-text">
-                <p class="sub-heading">WHAT WE OFFER</p>
-                <h2 class="main-heading">Design That Builds Brands</h2>
-            </div>
-            <div class="header-button">
-                <a href="#" class="btn-discover">Discover Our Services</a>
-            </div>
-        </div>
-
-        <div class="services-grid">
-            <div class="service-card"><h3>Strategy</h3></div>
-            <div class="service-card"><h3>Experience & Design</h3></div>
-            <div class="service-card"><h3>Marketing & Promotion</h3></div>
-            
-            <div class="service-card"><h3>Multimedia Production</h3></div>
-            <div class="service-card"><h3>Social Media Management</h3></div>
-            <div class="service-card"><h3>Social Media Marketing Campaigns</h3></div>
-            
-            <div class="service-card"><h3>Digital Marketing Services</h3></div>
-            <div class="service-card"><h3>Branding & Consultation</h3></div>
-            <div class="service-card"><h3>Web Design & Development</h3></div>
-            
-            <div class="service-card"><h3>SEO</h3></div>
-            <div class="service-card"><h3>Product Listing</h3></div>
-            <div class="service-card"><h3>Product Packaging</h3></div>
-            
-            <div class="service-card"><h3>Video Shoot</h3></div>
-            <div class="service-card"><h3>Marketing & Promotion</h3></div>
-            <div class="service-card"><h3>Marketing & Promotion</h3></div>
+        <div class="hero-illustration">
+         <img src="v copy.png" alt="Hero Image" class="hero-image">
         </div>
     </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <span class="pill">Our Services</span>
+        </div>
+
+        <div class="services-grid-custom">
+
+    <!-- Graphic Design -->
+    <div class="service-card-custom">
+        <img src="v copy.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Graphic Design</h3>
+        <p class="service-desc-custom">Clean, creative visuals that make your brand stand out anywhere.</p>
+    </div>
+
+    <!-- Branding -->
+    <div class="service-card-custom">
+        <img src="images/branding.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Branding</h3>
+        <p class="service-desc-custom">A complete identity system that gives your business a strong and memorable look.</p>
+    </div>
+
+    <!-- Digital Marketing -->
+    <div class="service-card-custom">
+        <img src="images/marketing.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Digital Marketing</h3>
+        <p class="service-desc-custom">Smart online strategies that help you reach more people and grow faster.</p>
+    </div>
+
+    <!-- Website Design -->
+    <div class="service-card-custom">
+        <img src="images/webdesign.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Website Design</h3>
+        <p class="service-desc-custom">Modern, responsive websites that look great on every device and convert visitors into customers.</p>
+    </div>
+
+    <!-- Social Media Management -->
+    <div class="service-card-custom">
+        <img src="images/socialmedia.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Social Media Management</h3>
+        <p class="service-desc-custom">Content planning and posting that keep your audience engaged and active.</p>
+    </div>
+
+    <!-- Content Creation -->
+    <div class="service-card-custom">
+        <img src="images/content.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Content Creation</h3>
+        <p class="service-desc-custom">High-quality posts, ads and videos built to attract and impress.</p>
+    </div>
+
+    <!-- Video Editing -->
+    <div class="service-card-custom">
+        <img src="images/video.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Video Editing</h3>
+        <p class="service-desc-custom">Smooth, professional edits that make your message clear and impactful.</p>
+    </div>
+
+    <!-- Ad Campaign Setup -->
+    <div class="service-card-custom">
+        <img src="images/ads.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Ad Campaign Setup</h3>
+        <p class="service-desc-custom">Targeted ads that get real results at the lowest cost.</p>
+    </div>
+
+    <!-- Product Packaging -->
+    <div class="service-card-custom">
+        <img src="images/packaging.png" class="service-icon-custom" alt="">
+        <h3 class="service-title-custom">Product Packaging</h3>
+        <p class="service-desc-custom">We design eye-catching packaging that makes your product stand out on shelves.</p>
+    </div>
+
+</div>
+
+
+        <div class="cta-center">
+          <a href="#services" class="btn btn-pill">View more services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US / NUMBERS / PROCESS -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="two-column">
+          <div>
+            <h2>Why Clients Choose Us</h2>
+            <ol class="feature-list">
+              <li>
+                <h4>Professional Quality</h4>
+                <p>
+                  We deliver clean, modern and creative designs that match your
+                  brand perfectly.
+                </p>
+              </li>
+              <li>
+                <h4>Fast Delivery</h4>
+                <p>
+                  Your projects are completed on time with clear communication
+                  at every step.
+                </p>
+              </li>
+              <li>
+                <h4>Affordable Pricing</h4>
+                <p>
+                  You get premium work without the heavy agency price.
+                </p>
+              </li>
+              <li>
+                <h4>Custom Solutions</h4>
+                <p>
+                  Every design is tailored for your business and your audience.
+                </p>
+              </li>
+            </ol>
+          </div>
+
+          <div>
+            <h2>Our Numbers Speak for Us</h2>
+            <div class="stats-grid">
+              <div class="stat-card">
+                <span class="stat-value">150+</span>
+                <span class="stat-label">Completed Projects</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value">95%</span>
+                <span class="stat-label">Client Satisfaction</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value">80+</span>
+                <span class="stat-label">Brands Designed</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value">2+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="process">
+          <h2>Our Simple and Effective Process</h2>
+          <div class="process-grid">
+            <div class="process-step">
+              <span class="step-number">1</span>
+              <h4>Discussion &amp; Planning</h4>
+              <p>We understand your goals, audience and requirements.</p>
+            </div>
+            <div class="process-step">
+              <span class="step-number">2</span>
+              <h4>Concept &amp; Design</h4>
+              <p>We create clean visuals and layouts based on your brand.</p>
+            </div>
+            <div class="process-step">
+              <span class="step-number">3</span>
+              <h4>Revisions &amp; Finalization</h4>
+              <p>
+                We refine the design until everything is perfect.
+              </p>
+            </div>
+            <div class="process-step">
+              <span class="step-number">4</span>
+              <h4>Delivery &amp; Support</h4>
+              <p>You get high-quality files with ongoing support if needed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS + PORTFOLIO -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="two-column">
+          <div>
+            <h2>Tools We Work With</h2>
+            <ul class="tools-list">
+              <li>Adobe Photoshop</li>
+              <li>Illustrator</li>
+              <li>InDesign</li>
+              <li>Premiere Pro</li>
+              <li>After Effects</li>
+              <li>Canva</li>
+              <li>Figma</li>
+              <li>Lightroom</li>
+            </ul>
+          </div>
+          <div id="portfolio">
+            <h2>Our Best Work</h2>
+            <p class="muted">
+              Clean visuals. Strong branding. Smart digital campaigns.
+              Everything your business needs to grow.
+            </p>
+            <div class="portfolio-grid">
+              <div class="portfolio-item"></div>
+              <div class="portfolio-item"></div>
+              <div class="portfolio-item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h4>1. How long does a design project take?</h4>
+            <p>
+              Most projects take 2 to 5 days depending on the complexity.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h4>2. How many revisions do I get?</h4>
+            <p>
+              We offer 2–3 free revisions based on the package.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h4>3. Do you provide editable files?</h4>
+            <p>
+              Yes, we can provide source files if required.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h4>4. Can you create custom packages?</h4>
+            <p>
+              Yes, we can build a package based on your needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-light">
+      <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p>
+              "Great quality and fast delivery. My brand looks more professional
+              now."
+            </p>
+            <span class="testimonial-author">- Rohan, Business Owner</span>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              "Clean and modern designs. Perfect for my social media."
+            </p>
+            <span class="testimonial-author">- Aisha, Content Creator</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Infinite Inspire Studio</h3>
+        <p>
+          Creative design and digital marketing services that help your brand
+          grow with confidence.
+        </p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Get in Touch</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our Services</h4>
+        <ul class="footer-links">
+          <li>Graphic Design</li>
+          <li>Branding</li>
+          <li>Digital Marketing</li>
+          <li>Website Design</li>
+          <li>Content Creation</li>
+          <li>Product Packaging</li>
+          <li>Video Editing</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Social Media</h4>
+        <ul class="footer-links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Infinite Inspire Studio. All rights reserved.
+    </div>
+  </footer>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
