@@ -939,3 +939,34 @@ body {
         grid-template-columns: 1fr; /* मोबाइल पर 1 कॉलम */
     }
 }
+.portfolio-scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.portfolio-scroll-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll-left 18s linear infinite;
+}
+
+.portfolio-item-scroll {
+  min-width: 260px;
+  height: 160px;
+  border-radius: 25px;
+  overflow: hidden;
+  background: #e9edff;
+}
+
+.portfolio-item-scroll img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes scroll-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
