@@ -969,4 +969,15 @@ body {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-logo {
+  width: 70px;
+  height: auto;
+}
+
 
